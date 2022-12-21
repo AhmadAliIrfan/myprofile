@@ -119,13 +119,13 @@ position: relative;
 
 .prototype{
 
-width: 28.9855%;
+width: 400px;
 
 }
 
 .eng{
 
-width: 10.8%;
+width: 150px;
 position: absolute;
 left: 80%;
 top: 0px;
@@ -136,7 +136,7 @@ top: 0px;
 position: absolute;
 left: 10%;
 top: 0px;
-width: 10.8%;
+width: 150px;
 
 
 }
@@ -164,7 +164,7 @@ color: #CBEDD5;
 .soft{
 
 
-width: 400px;
+width: 30%;
 
 }
 
