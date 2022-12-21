@@ -1,0 +1,312 @@
+body{
+
+
+	background-color: #2D033B;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	color:#2D033B;
+
+
+}
+
+h1{
+
+font-family: 'Sacramento', cursive;
+color: white;
+font-size: 3.125rem;
+
+}
+
+h2{
+
+font-family: 'Montserrat', sans-serif;
+color: #FFD700;
+padding: 5px;
+
+}
+
+h3{
+
+font-family: 'Montserrat', sans-serif;
+color: white;
+
+
+}
+
+.Sub{
+
+font-family: 'Montserrat', sans-serif;
+color: white;
+
+}
+
+
+.divider{
+
+background-color: #2D033B;
+
+ background-image: url('../images/binary-code.png');
+position: relative;
+padding-top: 100px;
+padding-bottom: 10px;
+}
+
+.middle-container{
+
+font-size: 1em;
+background-color: #C147E9;
+width: 90%;
+margin: auto;
+}
+
+.bot{
+
+
+
+}
+
+
+
+
+table,
+td {
+
+	border: 1px solid black;
+    padding: 10px;
+    width: 60%;
+   	box-shadow: 0px 0px 3px 2px black;
+}
+
+.table{
+
+
+margin: 15px auto;
+background-color:#2D033B ;
+
+}
+
+.row{
+
+background-color: #810CA8;
+
+}
+
+.data{
+
+background-color: #810CA8;
+color: #E5B8F4;
+}
+
+.heading{
+
+display: inline;
+
+}
+
+#title{
+
+background-color: #2D033B;
+text-align: center;
+padding: 5px;
+position: relative;
+
+}
+
+.prototype{
+
+width: 400px;
+
+}
+
+.eng{
+
+width: 150px;
+position: absolute;
+left: 80%;
+top: 0px;
+
+}
+
+.hack{
+position: absolute;
+left: 10%;
+top: 0px;
+width: 150px;
+
+
+}
+
+hr{
+
+color: #E5B8F4;
+border: 0px;
+border-top: 10px dotted;
+width: 15%;
+margin: 5% auto;
+
+}
+
+
+.author{
+
+display: block;
+font-size: 10px;
+text-decoration: none;
+color: #CBEDD5;
+
+}
+
+.soft{
+
+
+width: 400px;
+
+}
+
+
+
+
+.profile-pic{
+
+margin-top:30px;
+width: 30%;
+float: left;
+margin-right:20px;
+margin-left: 30px;
+}
+
+
+
+.propara{
+
+margin-bottom: 10px;
+padding-bottom: 16px;
+text-align: left;
+margin-right: 0px;
+color: #2D033B;
+
+}
+
+.para{
+
+color: #2D033B;
+
+
+}
+
+.headpro{
+
+
+width: 50%;
+margin: 10px auto 25px auto;
+padding-top: 30px;
+}
+
+.profile{
+
+width: 50%;
+margin: 10px auto;
+
+
+}
+
+#skill{
+
+margin-top: 0px;
+padding-top: 10px;
+
+}
+
+.skillimg{
+
+width: 50%;
+
+
+}
+
+.brain{
+
+padding-top: 20px;
+width: 50%;
+
+
+}
+
+.skill-row{
+
+padding-bottom: 5px;
+width: 50%;
+margin: 0px auto 0px; 
+
+
+}
+.bottom-container{
+
+background-color:  #810CA8;
+padding: 30px 0px;
+
+height: 60px;
+
+}
+
+
+
+.footer-link{
+
+padding: 15px;
+background-color: #2D033B;
+color: white;
+text-decoration: none;
+border-radius: 10px;
+margin-right: 10px;
+border-style: groove;
+border-color: #C147E9;
+
+
+}
+
+.footer-link:hover{
+
+background-color: #2D035C;
+
+
+
+}
+
+#copy{
+
+	padding-top: 15px;
+
+
+}
+
+.btn{
+
+padding: 15px;
+background-color: #2D033B;
+display:inline-block;
+margin-top: 20px;
+border-radius: 10px;
+text-decoration: none;
+color: white;
+border-style: groove;
+border-color: #2D033B;
+}
+
+.btn:hover{
+
+
+background-color: #2D035C;
+
+
+
+}
+
+.contact-me{
+
+padding-bottom: 30px;
+
+
+}
+
