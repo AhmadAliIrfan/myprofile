@@ -38,6 +38,7 @@ color: white;
 
 font-family: 'Montserrat', sans-serif;
 color: white;
+font-size: 1.25rem;
 
 }
 
@@ -59,13 +60,6 @@ background-color: #C147E9;
 width: 90%;
 margin: auto;
 }
-
-.bot{
-
-
-
-}
-
 
 
 
@@ -194,9 +188,26 @@ color: #2D033B;
 .para{
 
 color: #2D033B;
+font-size: 1rem;
+
+}
+
+#git{
+
+font-size: 1.5rem;
+
 
 
 }
+
+#connect{
+
+font-size: 1.25rem;
+
+
+
+}
+
 
 .headpro{
 
