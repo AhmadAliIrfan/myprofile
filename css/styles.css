@@ -10,11 +10,12 @@ body{
 
 }
 
+
 h1{
 
 font-family: 'Sacramento', cursive;
 color: white;
-font-size: 3.125rem;
+
 
 }
 
@@ -31,21 +32,23 @@ h3{
 font-family: 'Montserrat', sans-serif;
 color: white;
 
-
 }
 
-p{
 
-	font-size: 0.9rem;
+.profile-pic{
 
-
+margin-top:30px;
+float: left;
+margin-right:20px;
+margin-left: 30px;
 }
+
+
 
 .Sub{
 
 font-family: 'Montserrat', sans-serif;
 color: white;
-font-size: 1.15rem;
 
 }
 
@@ -60,6 +63,28 @@ padding-top: 100px;
 padding-bottom: 10px;
 }
 
+
+
+.eng{
+
+width: 150px;
+position: absolute;
+left: 80%;
+top: 0px;
+
+}
+
+.hack{
+position: absolute;
+left: 10%;
+top: 0px;
+width: 140px;
+
+
+}
+
+
+
 .middle-container{
 
 font-size: 0.9rem;
@@ -67,7 +92,6 @@ background-color: #C147E9;
 width: 90%;
 margin: auto;
 }
-
 
 
 table,
@@ -98,9 +122,16 @@ background-color: #810CA8;
 background-color: #810CA8;
 color: #E5B8F4;
 text-align: center;
-line-height: 2;
-font-size: 0.7rem;
+
 }
+
+
+.data1{
+
+color: #E5B8F4;
+text-align: left;
+}
+
 
 .heading{
 
@@ -117,29 +148,9 @@ position: relative;
 
 }
 
-.prototype{
-
-width: 400px;
-
-}
-
-.eng{
-
-width: 150px;
-position: absolute;
-left: 80%;
-top: 0px;
-
-}
-
-.hack{
-position: absolute;
-left: 10%;
-top: 0px;
-width: 150px;
 
 
-}
+
 
 hr{
 
@@ -170,24 +181,11 @@ width: 30%;
 
 
 
-
-.profile-pic{
-
-margin-top:30px;
-width: 30%;
-float: left;
-margin-right:20px;
-margin-left: 30px;
-}
-
-
-
 .propara{
 
 margin-bottom: 10px;
 padding-bottom: 16px;
 text-align: left;
-margin-right: 0px;
 color: #2D033B;
 
 }
@@ -198,21 +196,6 @@ color: #2D033B;
 
 }
 
-#git{
-
-font-size: 1.5rem;
-
-
-
-}
-
-#connect{
-
-font-size: 1.25rem;
-
-
-
-}
 
 
 .headpro{
@@ -282,8 +265,6 @@ border-radius: 10px;
 margin-right: 10px;
 border-style: groove;
 border-color: #C147E9;
-font-size: 0.7rem;
-
 
 }
 
@@ -313,7 +294,6 @@ text-decoration: none;
 color: white;
 border-style: groove;
 border-color: #2D033B;
-font-size: 0.7rem;
 }
 
 .btn:hover{
@@ -329,6 +309,493 @@ background-color: #2D035C;
 
 padding-bottom: 30px;
 
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+h1{
+
+font-size: 2.7rem;
+
+}
+
+h2{
+
+
+font-size: 1.1rem;
+
+}
+
+h3{
+
+font-size: 0.9rem;
+
+}
+
+
+p{
+
+	font-size: 0.6rem;
+
+}
+
+.profile-pic{
+
+
+width: 30%;
+margin-top: 30px;
+margin-bottom: 10px;
+
+}
+
+
+.eng{
+
+display: none;
+}
+
+.hack{
+display: none;
+
+}
+
+
+.propara{
+font-size: 0.65rem;
+line-height: 1.5;
+}
+
+
+.headpro{
+
+margin-bottom:15px;
+
+
+}
+.profile{
+
+width: 60%;
+
+}
+
+.data{
+
+font-size: 0.6rem;
+}
+
+
+.data1{
+line-height: 1.3;
+font-size: 0.6rem;
+
+
+}
+
+
+.btn{
+
+font-size: 0.4rem;
+
+}
+
+
+.footer-link{
+
+font-size: 0.4rem;
+
+}
+
+
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+h1{
+
+font-size: 2.9rem;
+
+}
+
+
+h2{
+
+
+font-size: 1.1rem;
+
+}
+
+h3{
+
+font-size: 0.9rem;
+
+}
+
+
+p{
+
+	font-size: 0.6rem;
+
+}
+
+.profile-pic{
+
+
+width: 28%;
+margin-top: 40px;
+margin-bottom: 15px;
+
+}
+
+
+.eng{
+
+width: 130px;
+left: 76%;
+
+}
+
+.hack{
+width: 120px;
+left: 5%;
+
+}
+
+
+.propara{
+font-size: 0.65rem;
+line-height: 1.5;
+}
+
+
+.headpro{
+
+margin-bottom:15px;
+
+
+}
+.profile{
+
+width: 60%;
+
+}
+
+.data{
+
+font-size: 0.75rem;
+}
+
+
+.data1{
+line-height: 1.3;
+font-size: 0.70rem;
+
+
+}
+
+
+.btn{
+
+font-size: 0.55rem;
+
+}
+
+
+.footer-link{
+
+font-size: 0.55rem;
+
+}
+
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+h1{
+
+font-size: 2.9rem;
+
+}
+
+h2{
+
+
+font-size: 1.3rem;
+
+}
+
+h3{
+
+font-size: 1.1rem;
+
+}
+
+
+p{
+
+	font-size: 0.8rem;
+
+}
+
+.profile-pic{
+
+
+width: 30%;
+margin-top: 30px;
+margin-bottom: 10px;
+
+}
+
+
+.eng{
+
+width: 130px;
+left: 83%;
+}
+
+.hack{
+width: 120px;
+
+
+}
+
+
+.propara{
+font-size: 0.65rem;
+line-height: 1.5;
+}
+
+
+.headpro{
+
+margin-bottom:15px;
+
+
+}
+.profile{
+
+width: 60%;
+
+}
+
+.data{
+
+font-size: 0.75rem;
+}
+
+
+.data1{
+line-height: 1.3;
+font-size: 0.70rem;
+
+
+}
+
+
+.btn{
+
+font-size: 0.55rem;
+
+}
+
+
+.footer-link{
+
+font-size: 0.55rem;
+
+}
+
+
+
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+h1{
+
+font-size: 3.2rem;
+
+}
+
+
+h2{
+
+
+font-size: 1.3rem;
+
+}
+
+h3{
+
+font-size: 1.1rem;
+
+}
+
+
+p{
+
+	font-size: 0.8rem;
+
+}
+
+.eng{
+
+width: 140px;
+left: 85%;
+}
+
+.hack{
+width: 130px;
+
+
+}
+
+
+.propara{
+font-size: 0.8rem;
+line-height: 1.5;
+}
+
+
+.profile-pic{
+margin-top: 10px;
+margin-bottom: 5px;
+
+
+}
+.headpro{
+
+margin-bottom:15px;
+
+
+}
+.profile{
+
+width: 60%;
+
+}
+
+.data{
+
+font-size: 0.75rem;
+}
+
+
+.data1{
+line-height: 1.5;
+font-size: 0.75rem;
+
+
+}
+
+
+.btn{
+
+font-size: 0.6rem;
+
+}
+
+
+.footer-link{
+
+font-size: 0.6rem;
+
+}
+
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+h1{
+
+font-size: 3.2rem;
+
+}
+
+h2{
+
+
+font-size: 1.7rem;
+
+}
+
+h3{
+
+font-size: 1.25rem;
+
+}
+
+
+p{
+
+	font-size: 0.9rem;
+
+}
+
+.eng{
+
+left: 87%;
+
+}
+
+
+
+
+
+.profile{
+
+width: 60%;
+margin-bottom: 9.2%;
+
+}
+
+.profile-pic{
+
+width: 28%;
+margin-bottom: 20px;
+}
+
+
+.data{
+
+font-size: 0.80rem;
+}
+
+.data1{
+line-height: 1.7;
+font-size: 0.80rem;
+}
+
+
+.Sub{
+
+	font-size: 1.15rem;
+}
+
+
+.btn{
+
+font-size: 0.7rem;
+
+}
+
+
+.footer-link{
+
+font-size: 0.7rem;
+
+}
 
 }
 
