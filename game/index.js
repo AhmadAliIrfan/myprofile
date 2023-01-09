@@ -188,7 +188,16 @@ $(".bttn").removeClass("pressed");
 
 
 
-$("bttn-M").click(function(){
+$(".bttn-M").click(function(){
+
+
+	$(".bttn-M").addClass("pressed");
+
+	setTimeout(function(){
+
+	$(".bttn-M").removeClass("pressed");
+
+	},100)
 
 
 	if(start === 0){
@@ -197,6 +206,10 @@ $("bttn-M").click(function(){
 
 		nextSequence();
 
+	}else{
+
+
+		console.log("Not Working");
 	}
 
 
