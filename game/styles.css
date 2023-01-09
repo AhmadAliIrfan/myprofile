@@ -62,3 +62,33 @@ padding: 3%;
 font-family: 'Press Start 2P', cursive;
  
 }
+
+
+.bttn-M{
+
+
+visibility: hidden;
+
+
+}
+
+
+
+/*Media Queires*/
+
+
+@media only screen and (max-device-width: 786px) {
+  .bttn-M {
+    visibility: visible;
+    border-radius: 60px;
+    box-shadow: 10px black;
+    background-color: darkturquoise;
+    margin: 2%;
+    padding: 3%;
+    font-family: 'Press Start 2P', cursive;
+  }
+}
+
+
+}
+

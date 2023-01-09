@@ -140,6 +140,34 @@ animatePress(event.target.id);
 
 
 
+
+const mediaQuery = window.matchMedia('(max-device-width: 786px)');
+
+
+function handleChange(event){
+
+
+	if(event.matches){
+
+		$("#level-title").text("Press the start to play");
+
+	}else{
+
+		$("#level-title").text("Press A Key to Start");
+
+	}
+
+}
+
+
+
+mediaQuery.addListener(handleChange);
+
+
+handleChange(mediaQuery);
+
+
+
 $(".bttn").click(function(){
 
 
@@ -157,6 +185,22 @@ $(".bttn").removeClass("pressed");
 
 })
 
+
+
+
+$("bttn-M").click(function(){
+
+
+	if(start === 0){
+
+		userChosenPattern=[];
+
+		nextSequence();
+
+	}
+
+
+})
 
 
 $(document).keydown(function(event){
